@@ -91,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Kit", "Kit/**/*.{h,m}"
-  s.exclude_files = "Kit/Exclude"
+  s.source_files  = "SKUIKit/Kit", "SKUIKit/Kit/**/*.{h,m}"
+  s.exclude_files = "SKUIKit/Kit/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
