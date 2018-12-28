@@ -13,6 +13,8 @@
 		531E4D0721D5E7B70063F769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531E4D0621D5E7B70063F769 /* Assets.xcassets */; };
 		531E4D0A21D5E7B70063F769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531E4D0821D5E7B70063F769 /* LaunchScreen.storyboard */; };
 		531E4D0D21D5E7B70063F769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 531E4D0C21D5E7B70063F769 /* main.m */; };
+		531E4D1921D5E8570063F769 /* SKTopAlignLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 531E4D1821D5E8570063F769 /* SKTopAlignLable.m */; };
+		531E4D1C21D5EB5B0063F769 /* UIView+SnapShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 531E4D1B21D5EB5B0063F769 /* UIView+SnapShot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		531E4D0921D5E7B70063F769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		531E4D0B21D5E7B70063F769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		531E4D0C21D5E7B70063F769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		531E4D1721D5E8570063F769 /* SKTopAlignLable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKTopAlignLable.h; sourceTree = "<group>"; };
+		531E4D1821D5E8570063F769 /* SKTopAlignLable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKTopAlignLable.m; sourceTree = "<group>"; };
+		531E4D1A21D5EB5B0063F769 /* UIView+SnapShot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SnapShot.h"; sourceTree = "<group>"; };
+		531E4D1B21D5EB5B0063F769 /* UIView+SnapShot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SnapShot.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		531E4CFC21D5E7B60063F769 /* SKUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				531E4D1321D5E7CC0063F769 /* Kit */,
 				531E4CFD21D5E7B60063F769 /* AppDelegate.h */,
 				531E4CFE21D5E7B60063F769 /* AppDelegate.m */,
 				531E4D0021D5E7B60063F769 /* ViewController.h */,
@@ -69,6 +76,41 @@
 				531E4D0C21D5E7B70063F769 /* main.m */,
 			);
 			path = SKUIKit;
+			sourceTree = "<group>";
+		};
+		531E4D1321D5E7CC0063F769 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				531E4D1421D5E8030063F769 /* Category */,
+				531E4D1621D5E8030063F769 /* UI */,
+				531E4D1521D5E8030063F769 /* Utilities */,
+			);
+			path = Kit;
+			sourceTree = "<group>";
+		};
+		531E4D1421D5E8030063F769 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				531E4D1A21D5EB5B0063F769 /* UIView+SnapShot.h */,
+				531E4D1B21D5EB5B0063F769 /* UIView+SnapShot.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		531E4D1521D5E8030063F769 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		531E4D1621D5E8030063F769 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				531E4D1721D5E8570063F769 /* SKTopAlignLable.h */,
+				531E4D1821D5E8570063F769 /* SKTopAlignLable.m */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +183,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				531E4D1921D5E8570063F769 /* SKTopAlignLable.m in Sources */,
 				531E4D0221D5E7B60063F769 /* ViewController.m in Sources */,
+				531E4D1C21D5EB5B0063F769 /* UIView+SnapShot.m in Sources */,
 				531E4D0D21D5E7B70063F769 /* main.m in Sources */,
 				531E4CFF21D5E7B60063F769 /* AppDelegate.m in Sources */,
 			);
